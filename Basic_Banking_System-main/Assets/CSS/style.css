@@ -1,0 +1,192 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#ff8a65;
+    height: 100%;
+    width: 100%;
+    touch-action: none;
+    cursor: pointer;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color:aliceblue!important;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color:cornflowerblue!important;
+    /* color: teal!important; */
+
+}
+.nav-item{
+    margin-right: 100px;
+    align-content: flex-start;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.52rem;
+}
+
+.nav-link:hover{
+    background-color:blueviolet;
+    color: #e4eff2 !important;
+    min-width: fit-content;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100%;
+    width: 100%;
+    background-color:slateblue;
+    color:#fff;
+    padding: 8rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 90vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-img {
+      display:inline-flex;
+      margin-left: 20px;
+      position:initial;
+      margin-top: 11vh;
+      height: 40vh;
+    }
+    .navbar-brand{
+        padding-right: 20px;
+        margin-left:40vw;
+        font-size: 2rem;
+     }
+    .contact{
+        font-size: 2rem;
+    }
+    .nav-link{
+        align-content: space-between;
+    
+    }
+}
+
+.get-started{
+    border-radius: 0.8rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color:darkblue!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color:darkblue;
+    font-size: 120%;
+    color:aliceblue!important;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.4s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style:none;
+    display:inline-block;
+    padding: 1rem;
+}
+.col-md-6 p{
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+font-size: large;
+}
+.contact{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.73rem;
+    
+}
+
+.github{
+    color: #24292e;
+}
+.github:hover{
+    color: #24292e;
+    font-size: 2rem;
+    transition-property: 4s transition(0 ,100);
+}
+.linkedin {
+    color: #0077b5;
+}
+.linkedin:hover{
+    color: #0077b5;
+    font-size: 2rem;
+}
+.facebook{
+   color:#017ab6;
+}
+.facebook:hover{
+    color: #017ab6;
+    font-size: 2rem;
+}
+.google{
+    color: #D44638;
+}
+/* footer css ends here  */
